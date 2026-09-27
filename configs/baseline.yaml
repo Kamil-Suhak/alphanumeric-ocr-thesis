@@ -1,0 +1,28 @@
+experiment:
+  name: EXP-001
+  description: "Czysty model bazowy uczony na zbiorze EMNIST ByClass"
+
+seed: 123
+
+dataset:
+  name: emnist_byclass
+  num_classes: 62
+  val_ratio: 0.1
+  mean: 0.1739
+  std: 0.3170
+
+model:
+  name: AlphanumericCNN
+  in_channels: 1
+  dropout: 0.5
+
+training:
+  batch_size: 512
+  epochs: 25
+  learning_rate: 0.001
+  weight_decay: 0.0001
+
+augmentation:
+  blur: false
+  noise: false
+  perspective: false
