@@ -4,6 +4,7 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = PROJECT_ROOT / "data"
 RAW_EMNIST_DIR = DATA_DIR / "raw" / "emnist"
 PROCESSED_DIR = DATA_DIR / "processed"
+MANIFESTS_DIR = DATA_DIR / "manifests"
 RESULTS_DIR = PROJECT_ROOT / "results"
 FIGURES_DIR = RESULTS_DIR / "figures"
 RUNS_DIR = RESULTS_DIR / "runs"
