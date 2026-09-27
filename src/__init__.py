@@ -1,0 +1,1 @@
+"""Główny pakiet źródłowy projektu."""
