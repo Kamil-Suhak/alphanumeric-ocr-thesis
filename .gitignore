@@ -22,6 +22,7 @@ data/processed/
 *.pth
 *.onnx
 *.bin
+*.zip
 results/runs/
 
 # Logi i pliki tymczasowe
